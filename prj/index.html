@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <style>
+        @media screen and (max-width: 900px) {
+            .items {
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                backdrop-filter: blur(3px);
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                padding: 0;
+                margin: 0;
+                height: 100vh;
+                margin-left: -100%;
+                transition: all 0.5s ease;
+                background-color: rgba(128, 128, 128, 0.236);
+            }
+
+            .header {
+                padding: 0;
+                margin: 0;
+            }
+
+            .menu {
+                display: block;
+            }
+
+            .items li {
+                margin: 12px 0;
+            }
+
+            .mobile-menu {
+                margin-left: 0;
+            }
+
+            .nav-item .nav-link:hover {
+                color: #263238;
+            }
+
+            .logo {
+                position: absolute;
+                top: 47px;
+                left: 50px;
+                padding-left: 0;
+            }
+
+            * .r1 {
+                margin-top: 100px;
+                width: 100%;
+            }
+
+            .c {
+                width: 100%;
+            }
+
+            .client {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 0%;
+            }
+            .cards{
+                flex-direction: column;
+            }
+            .cars{
+                width: 100%;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            .card1 , .card3{
+                margin: 0;
+            }
+            .head3{
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            
+            .lastcon{
+                flex-direction: column;
+                justify-content: center;
+                align-items: start;
+                margin: 0;
+                padding-left: 20px;
+
+            }
+            .last{
+                width: 80%;
+                padding: 0%;
+                margin-top: 30px;
+                margin-bottom: 30px;
+
+            }
+            .ull{
+                text-align: center;
+            }
+            .ulltxt{
+                text-align: center;
+            }
+            .finlogo{
+                text-align: center;
+                align-items: center;
+            }
+            .ulfin{
+                align-items: center;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            @media (min-width: 576px) {
+                .container {
+                    width: 540px;
+                }
+            }
+
+            @media (min-width: 768px) {
+                .container {
+                    width: 720px;
+                }
+            }
+
+            @media (min-width: 992px) {
+                .container {
+                    width: 960px;
+                }
+            }
+
+            @media (min-width: 1200px) {
+                .container {
+                    width: 1140px;
+                }
+            }
+
+            @media (min-width: 1400px) {
+                .container {
+                    width: 1320px;
+                }
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <ul class="nav header ">
+            <li class="nav-item logo">
+                <img src="img/Logo.png">
+            </li>
+            <div class="nav items" id="items">
+                <li class="nav-item">
+                    <a href="Home.html" class="nav-link text-dark">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Features" class="nav-link text-dark">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Community" class="nav-link text-dark">Community</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Blog" class="nav-link text-dark">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Pricing" class="nav-link text-dark">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Registrer.html" class="nav-link text-light btn btn-success">Registrer Now</a>
+                </li>
+            </div>
+            <img src="img/menu.jpg" id="menu" class="menu" alt="">
+        </ul>
+    </div>
+
+    <div class="container-fluid head2 p-5">
+        <div class="row r1">
+            <div class="col-lg-7 col-12 c">
+                <div class="textdiv">
+                    <h1>Lessons and insights</h1>
+                    <h1 class="text-success">from 8 years</h1>
+                    <p>Where to grow your business as photographer: site or social media ?</p>
+                    <button class="btn btn-success rext-light">Register</button>
+                </div>
+            </div>
+            <div class="col-lg-5 col-12 c">
+                <img src="img/Illustration.png" class="imagediv" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container p-5">
+        <h1 class="text-center">Our Clients</h1>
+        <p class="text-center">We have been working with some Fortune 500+ clients</p>
+    </div>
+    <div class="container px-2">
+        <ul class="client">
+            <li><img src="img/Logo (1).png"></li>
+            <li><img src="img/Logo (2).png"></li>
+            <li><img src="img/Logo (3).png"></li>
+            <li><img src="img/Logo (4).png"></li>
+            <li><img src="img/Logo (5).png"></li>
+            <li><img src="img/Logo (6).png"></li>
+            <li><img src="img/Logo (7).png"></li>
+        </ul>
+    </div>
+    <div class="container p-5">
+        <h1 class="text-center">Manage your entire community in a single system</h1>
+        <p class="text-center">who is Nextcent suitable for ?</p>
+    </div>
+
+
+
+    <div class="container p-5 cards">
+        <div class="card cars text-center p-3 card1">
+            <img src="img/Icon (2).png" class="card-img-top">
+            <h1 class="card-title">Membership organisation</h1>
+            <div class="card-body">
+                <p>Our membership management
+                    software provides full automation of
+                    membership renewals and payments</p>
+            </div>
+        </div>
+        <div class="card cars text-center p-3">
+            <img src="img/Icon (1).png" class="card-img-top">
+            <h1 class="card-title">National Associations</h1>
+            <div class="card-body">
+                <p>Our membership management
+                    software provides full automation of
+                    membership renewals and
+                    payments</p>
+            </div>
+        </div>
+        <div class="card cars text-center p-3 card3">
+            <img src="img/Icon (4).png" class="card-img-top">
+            <h1 class="card-title">Clubs And Groups</h1>
+            <div class="card-body">
+                <p>Our membership management
+                    software provides full automation of
+                    membership renewals and payments</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container-fluid head3">
+        <div class="row r2">
+            <div class="col-lg-5 col-12">
+                <img src="img/Frame 35.png">
+            </div>
+            <div class="col-lg-7 col-12">
+                <div class="textdiv">
+                    <h2>The unseen of spending three
+                        years at Pixelgrade</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed
+                        accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed
+                        porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam
+                        quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
+                    <button class="btn btn-success rext-light">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container-fluid head2 hh p-5">
+        <div class="row r1">
+            <div class="col-lg-6 col-12 c">
+                <div class="textdiv">
+                    <h2>Helping a local</h2>
+                    <h2 class="text-success">business reinvent itself</h2>
+                    <p>We reached here with our hard work and dedication</p>
+                </div>
+            </div>
+            <div class="col-lg-6 cool col-12 c">
+                <div class=" r10">
+                    <div class="col-lg-6 icons icons1">
+                        <img src="img/Icon (3).png" alt="">
+                        <div>
+                            <h5>2,245,341</h5>
+                            <p>Members</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 icons icons2">
+                        <img src="img/Icon (4).png" alt="">
+                        <div>
+                            <h5>46,328</h5>
+                            <p>Clubs</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" r10">
+                    <div class="col-lg-6 icons icons1">
+                        <img src="img/Icon (5).png" alt="">
+                        <div>
+                            <h5>828,867</h5>
+                            <p>Event Bookings</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 icons icons2">
+                        <img src="img/Icon (6).png" alt="">
+                        <div>
+                            <h5>1,926,436</h5>
+                            <p>Payments</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid head3">
+        <div class="row r2">
+            <div class="col-lg-5 col-12">
+                <img src="img/Frame 35.png">
+            </div>
+            <div class="col-lg-7 col-12">
+                <div class="textdiv">
+                    <h2>How to design your site footer like
+                        we did</h2>
+                    <p>Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt
+                        molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at
+                        libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta
+                        nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt.
+                        Integer
+                        in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi
+                        ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.</p>
+                    <button class="btn btn-success rext-light">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid head2 head4 p-5">
+        <div class="row r2">
+            <div class="col-lg-4 col-12">
+                <img src="img/image 9.png">
+            </div>
+            <div class="col-lg-8 col-12">
+                <div class="textdiv">
+                    <p>Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus
+                        tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in,
+                        gravida
+                        enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec
+                        molestie
+                        mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales.
+                        Suspendisse
+                        eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien,
+                        vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero
+                        condimentum
+                        id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p>
+                    <p class="text-success">Tim Smith</p>
+                    <p>British Dragon Boat Racing Association</p>
+                    <ul class="client2">
+                        <li><img src="img/Logo (1).png"></li>
+                        <li><img src="img/Logo (2).png"></li>
+                        <li><img src="img/Logo (3).png"></li>
+                        <li><img src="img/Logo (4).png"></li>
+                        <li><img src="img/Logo (5).png"></li>
+                        <li><img src="img/Logo (6).png"></li>
+                        <a href="Meetallcustomers.html" class="btn text-success">Meet all customers</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container p-5 my-5">
+        <h1 class="text-center">Caring is the new marketing</h1>
+        <p class="text-center">
+            <span>The Nextcent blog is the best place to read about the latest membership insights,</span><br>
+            <span>trends and more. See who's joining the community, read about how our community </span><br>
+            <span>are increasing their membership income and lot's more.</span>
+        </p>
+        <div class="container lastcon">
+            <div class="last text-center">
+                <div class="imagg">
+                    <img src="img/image 18.png">
+                </div>
+                <div class="inlast p-3">
+                    <p>Creating Streamlined
+                        Safeguarding Processes with
+                        OneRen</p>
+                    <a href="Reademore.html" class="btn text-success">Reademore</a>
+
+                </div>
+            </div>
+            <div class="last text-center">
+                <div class="imagg">
+                    <img src="img/image 19.png">
+                </div>
+                <div class="inlast p-3">
+                    <p>What are your safeguarding
+                        responsibilities and how can
+                        you manage them?</p>
+                    <a href="Reademore.html" class="btn text-success">Reademore</a>
+
+                </div>
+            </div>
+            <div class="last text-center">
+                <div class="imagg">
+                    <img src="img/image 20.png">
+                </div>
+                <div class="inlast p-3">
+                    <p>Revamping the Membership
+                        Model with Triathlon
+                        Australia</p>
+                    <a href="Reademore.html" class="btn text-success">Reademore</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid head2 text-center head4 p-5">
+        <h1>Pellentesque suscipit</h1>
+        <h1>fringilla libero eu.</h1>
+        <a href="getademo.html" class="my-3 btn text-light btn-success">Get a Demo</a>
+
+    </div>
+    <div class="container-fluid fiiiiin p-5">
+        <div class="row rowfin text-light">
+            <div class="col-lg-5 p-5 finlogo">
+                <img src="img/Logo.png" class="imgfin p-2">
+                <p class=" p-3">Copyright © 2020 Landify UI Kit.
+                    All rights reserved</p>
+                <ul class="footer-social-links ulfin p-0">
+                    <li><a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://example.com"><i class="fa-solid fa-globe"></i></a></li>
+                    <li><a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://youtube.com"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2">
+                <h5 class="py-4 ulltxt">Company</h5>
+                <ul class="ull ">
+                    <li><a class="text-decoration-none" href="Aboutus.html">About us</a></li>
+                    <li><a class="text-decoration-none" href="Blog.html">Blog</a></li>
+                    <li><a class="text-decoration-none" href="Contactus.html ">Contact us</a></li>
+                    <li><a class="text-decoration-none" href="Pricing.html">Pricing</a></li>
+                    <li><a class="text-decoration-none" href="Testimoniais.html">Testimoniais</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2">
+                <h5 class="py-4 ulltxt">Support</h5>
+                <ul class="ull ">
+                    <li><a class="text-decoration-none" href="Helpcenter.html ">Help center</a></li>
+                    <li><a class="text-decoration-none" href="Termsofservice.html ">Terms of service</a></li>
+                    <li><a class="text-decoration-none" href="Legal.html">Legal</a></li>
+                    <li><a class="text-decoration-none" href="Privacypolicy.html ">Privacy policy</a></li>
+                    <li><a class="text-decoration-none" href="Status.html">Status</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <h5 class="py-4 ulltxt">Stay up to date</h5>
+                <div class="input-group">
+                    <input type="email" class="form-control bg-dark text-light inp" placeholder="Your email address">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        let menu = document.getElementById("menu");
+        let items = document.getElementById("items");
+        menu.addEventListener('click', () => {
+            items.classList.toggle('mobile-menu');
+        })
+    </script>
+    <link rel="stylesheet" href="js/bootstrap.min.js">
+
+</body>
+
+</html>
